@@ -1,0 +1,21 @@
+{
+  "name": "interwincom",
+  "version": "0.1.0",
+  "description": "Example of browser window intercommunication",
+  "main": "main.js",
+  "scripts": {
+    "start": "./node_modules/gulp/bin/gulp.js start"
+  },
+  "keywords": [
+    "javascript",
+    "browser",
+    "window",
+    "communication"
+  ],
+  "author": "Rafael Camargo <hello@rafaelcamargo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "gulpjs/gulp.git#4.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}
