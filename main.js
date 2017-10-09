@@ -16,7 +16,6 @@
   }
 
   function onChildWindowClose(info){
-    console.log(info);
     var logger = document.querySelectorAll('[data-js="logger"]')[0];
     logger.innerHTML = 'The information received was: "' + info + '"';
   }
